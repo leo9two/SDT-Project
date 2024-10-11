@@ -42,7 +42,7 @@ scipy==1.14.1
 six==1.16.0
 smmap==5.0.1
 statsmodels==0.14.4
-streamlit==0.84.1
+
 tenacity==9.0.0
 toml==0.10.2
 tornado==6.4.1
