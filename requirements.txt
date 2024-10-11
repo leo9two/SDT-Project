@@ -24,7 +24,7 @@ MarkupSafe==3.0.1
 matplotlib==3.9.2
 narwhals==1.9.3
 
-packaging==24.1
+
 pandas==2.2.3
 patsy==0.5.6
 pillow==10.4.0
