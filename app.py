@@ -37,5 +37,12 @@ vehicle_count_plot = px.bar(vehicle_count, x='model', y='count', color='type',
 
 st.plotly_chart(vehicle_count_plot)
 
+price_limit = st.checkbox('Exclude cars over $50,000')
+if price_limit:
+    df_filtered = df[df['price'] <= 50000]
+else:
+    df_filtered = df
+
+
 # Additional insights or analysis can be added here
 st.write("You can explore the distribution of various car attributes and make data-driven decisions.")
