@@ -32,3 +32,9 @@ Open your web browser and navigate to http://localhost:8501 to view the dashboar
 
 Make sure the dataset vehicles_us.csv is located in the same directory as app.py for the application to work correctly.
 Feel free to explore and modify the code for personalized insights.
+
+## Web Application
+
+You can access the deployed web application https://sdt-project-13j7.onrender.com
+
+This dashboard allows users to explore car listings data through interactive visualizations, including histograms, scatter plots, and more.
